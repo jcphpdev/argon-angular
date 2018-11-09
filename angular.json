@@ -19,13 +19,20 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "src/favicon.png",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/open-sans.css",
+              "src/assets/css/nucleo.css",
+              "src/assets/css/fontawesome.min.css",
+              "src/assets/css/argon.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/argon.js"
+            ]
           },
           "configurations": {
             "production": {
