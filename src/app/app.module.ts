@@ -8,6 +8,7 @@ import { PublicLayoutComponent } from './_layout/public-layout/public-layout.com
 import { HomeComponent } from './admin/home/home.component';
 import { AboutComponent } from './public/about/about.component';
 import { LoginComponent } from './public/login/login.component';
+import { FooterComponent } from './_layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginComponent } from './public/login/login.component';
     PublicLayoutComponent,
     HomeComponent,
     AboutComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
