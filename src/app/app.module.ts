@@ -9,6 +9,9 @@ import { HomeComponent } from './admin/home/home.component';
 import { AboutComponent } from './public/about/about.component';
 import { LoginComponent } from './public/login/login.component';
 import { FooterComponent } from './_layout/footer/footer.component';
+import { NavbarPublicComponent } from './_layout/navbar-public/navbar-public.component';
+import { NavbarAdminComponent } from './_layout/navbar-admin/navbar-admin.component';
+import { SidebarAdminComponent } from './_layout/sidebar-admin/sidebar-admin.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { FooterComponent } from './_layout/footer/footer.component';
     HomeComponent,
     AboutComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    NavbarPublicComponent,
+    NavbarAdminComponent,
+    SidebarAdminComponent
   ],
   imports: [
     BrowserModule,

@@ -25,12 +25,12 @@ const routes: Routes = [
     path: '',
     component: PublicLayoutComponent, 
     children: [
-      { path: 'dashboard', component: AboutComponent },
+      { path: 'login', component: LoginComponent },
     ]
   },
 
   //no layout routes
-  { path: 'login', component: LoginComponent},
+  //{ path: 'login', component: LoginComponent},
 
 ];
 
