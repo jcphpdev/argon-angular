@@ -23,15 +23,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/css/open-sans.css",
-              "src/assets/css/nucleo.css",
-              "src/assets/css/fontawesome.min.css",
-              "src/assets/css/argon.css"
+              "src/assets/css/montserrat.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/paper-dashboard.css",
+              "src/assets/demo/demo.css"
             ],
             "scripts": [
-              "src/assets/js/jquery.min.js",
-              "src/assets/js/bootstrap.bundle.min.js",
-              "src/assets/js/argon.js"
+              "src/assets/js/core/jquery.min.js",
+              "src/assets/js/core/popper.min.js",
+              "src/assets/js/core/bootstrap.min.js",
+              "src/assets/js/plugins/bootstrap-notify.js",
+              "src/assets/js/paper-dashboard.min.js",
+              "src/assets/demo/demo.js"
             ]
           },
           "configurations": {
