@@ -13,6 +13,11 @@ import { NavbarPublicComponent } from './_layout/navbar-public/navbar-public.com
 import { NavbarAdminComponent } from './_layout/navbar-admin/navbar-admin.component';
 import { SidebarAdminComponent } from './_layout/sidebar-admin/sidebar-admin.component';
 import { FooterAdminComponent } from './_layout/footer-admin/footer-admin.component';
+import { IconsComponent } from './admin/icons/icons.component';
+import { NotificationsComponent } from './admin/notifications/notifications.component';
+import { UserProfileComponent } from './admin/user-profile/user-profile.component';
+import { TableListComponent } from './admin/table-list/table-list.component';
+import { TypographyComponent } from './admin/typography/typography.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { FooterAdminComponent } from './_layout/footer-admin/footer-admin.compon
     NavbarPublicComponent,
     NavbarAdminComponent,
     SidebarAdminComponent,
-    FooterAdminComponent
+    FooterAdminComponent,
+    IconsComponent,
+    NotificationsComponent,
+    UserProfileComponent,
+    TableListComponent,
+    TypographyComponent
   ],
   imports: [
     BrowserModule,

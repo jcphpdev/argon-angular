@@ -10,6 +10,10 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    import('src/assets/js/plugins/chartjs.min.js').then(chartjs => {
+      demo.initChartsPages();
+    });
+    
   }
 
 }

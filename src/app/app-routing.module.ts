@@ -7,6 +7,11 @@ import { PublicLayoutComponent } from './_layout/public-layout/public-layout.com
 import { HomeComponent } from './admin/home/home.component';
 import { AboutComponent } from './public/about/about.component';
 import { LoginComponent } from './public/login/login.component';
+import { IconsComponent } from './admin/icons/icons.component';
+import { NotificationsComponent } from './admin/notifications/notifications.component';
+import { UserProfileComponent } from './admin/user-profile/user-profile.component';
+import { TableListComponent } from './admin/table-list/table-list.component';
+import { TypographyComponent } from './admin/typography/typography.component';
 
 const routes: Routes = [
 
@@ -16,7 +21,11 @@ const routes: Routes = [
     component: AdminLayoutComponent,
     children: [
       { path: '', component: HomeComponent, pathMatch: 'full'},
-      { path: 'home', component: HomeComponent },
+      { path: 'icons', component: IconsComponent },
+      { path: 'notifications', component: NotificationsComponent },
+      { path: 'user', component: UserProfileComponent },
+      { path: 'table', component: TableListComponent },
+      { path: 'typography', component: TypographyComponent },
     ]
   },
 
